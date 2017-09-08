@@ -1,13 +1,13 @@
 # 100txy
 雷小天博客微信小程序
 
-<p align="center"><a href="https://github.com/leiphp/wxParse" target="_blank"><img src="screenshoot/wxParse_logo.jpg"></a></p>
-<p align="center"><a href="https://github.com/leiphp/wxParse" target="_blank"><img src="screenshoot/weappmsg_qr.jpg"></a></p>
-<h1 align="center" style="margin-bottom: 20px;">wxParse-微信小程序富文本解析组件</h1>
+<p align="center"><a href="https://github.com/leiphp/100txy" target="_blank"><img src="screenshoot/wxParse_logo.jpg"></a></p>
+<p align="center"><a href="https://github.com/leiphp/100txy" target="_blank"><img src="screenshoot/weappmsg_qr.jpg"></a></p>
+<h1 align="center" style="margin-bottom: 20px;">wxParse-雷小天博客微信小程序</h1>
 <h2 align="center">支持Html及markdown转wxml可视化</h2>
-<p align="center"><code>版本号:0.3</code></p>
-<p align="center">来源: [微信小程序开发论坛-weappdev](https://weappdev.com)</p>
-<p align="center">作用: 将Html/Markdown转换为微信小程序的可视化方案</p>
+<p align="center"><code>版本号:1.0</code></p>
+<p align="center">来源: [雷小天博客](http://.100txy.com)</p>
+<p align="center">作用: 将个人博客网站转换为微信小程序的可视化方案</p>
 
 
 ## 特性
@@ -86,44 +86,9 @@ WxParse.wxParse('article', 'html', article, that, 5);
 ## 高级用法
 
 * 配置小表情emojis
-```
-/**
-* WxParse.emojisInit(reg,baseSrc,emojis)
-* 1.reg，如格式为[00]=>赋值 reg='[]'
-* 2.baseSrc,为存储emojis的图片文件夹
-* 3.emojis,定义表情键值对
-*/
-WxParse.emojisInit('[]', "/wxParse/emojis/", {
-      "00": "00.gif",
-      "01": "01.gif",
-      "02": "02.gif",
-      "03": "03.gif",
-      "04": "04.gif",
-      "05": "05.gif",
-      "06": "06.gif",
-      "07": "07.gif",
-      "08": "08.gif",
-      "09": "09.gif",
-      "09": "09.gif",
-      "10": "10.gif",
-      "11": "11.gif",
-      "12": "12.gif",
-      "13": "13.gif",
-      "14": "14.gif",
-      "15": "15.gif",
-      "16": "16.gif",
-      "17": "17.gif",
-      "18": "18.gif",
-      "19": "19.gif",
-    });
-```
 
-* 多数据格式
- + 参见wiki[wxParse多数据循环使用方法](https://github.com/leiphp/wxParse/wiki/wxParse%E5%A4%9A%E6%95%B0%E6%8D%AE%E5%BE%AA%E7%8E%AF%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95)
 
-## FAQ
 
-* 参见wiki[weParse常见问题FAQ](https://github.com/leiphp/wxParse/wiki/wxParse%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98FAQ)
 
 ## 二次开发
 
