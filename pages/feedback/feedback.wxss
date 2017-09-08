@@ -1,0 +1,16 @@
+/* pages/feedback/feedback.wxss */
+.section{
+  width: 100%;
+  margin-bottom: 10px;
+  font-family: "微软雅黑";
+}
+input{
+  border:1px solid gray;
+  margin: 5px;
+
+}
+textarea{
+  border: 1px solid gray;
+  width: 96.5%;
+  margin:5px;
+}

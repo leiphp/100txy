@@ -1,0 +1,17 @@
+<view class="content">
+  <view class="banner">
+     <image  src="{{imgUrl}}" style="width:100%;"></image>
+  </view> 
+    
+  <view class="section">
+      <form bindsubmit="bindFormSubmit">
+      
+        <input placeholder="您的称呼（必填）" auto-focus/>
+        <input placeholder="您的邮箱（必填）" auto-focus/>
+        <input placeholder="您的网站（必填）" auto-focus/>
+        <textarea placeholder="说的什么吧..." name="textarea"/>
+        <button type="primary" form-type="submit"> 提交 </button>
+      </form>
+  </view>
+
+</view>

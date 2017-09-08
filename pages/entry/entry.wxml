@@ -1,0 +1,18 @@
+<import src="../../wxParse/wxParse.wxml"/> 
+
+<view class="content">
+   <!--新闻列表-->
+   <block  class="item-container">
+    <view class="sucai">
+      <view class="su_title">
+        <text class="title">{{Downdetail.title}}\n</text>      
+        <text class="dianping">时间：{{Downdetail.date}} 作者：{{Downdetail.author}} 浏览：{{Downdetail.view}}\n</text>
+      </view>
+      <view class="hr"></view>
+      <view class="wxParse">
+        <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+      </view>
+     </view>   
+    </block>
+   
+</view>
