@@ -27,11 +27,8 @@
 
 ## 相关截图
 
-![相关截图](screenshoot/screen.jpg)
+![相关截图](show.gif)
 
-## 感谢
-
-[@stonewen](https://github.com/stonewen)| [@Daissmentii](https://github.com/Daissmentii)        | [@wuyanwen](https://github.com/wuyanwen)           | [@vcxiaohan](https://github.com/vcxiaohan)  |
 
 ## 基本使用方法
 
