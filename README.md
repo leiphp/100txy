@@ -1,5 +1,5 @@
 # 100txy
-雷小天博客微信小程序
+雷小天博客转微信小程序
 
 <p align="center"><a href="https://github.com/leiphp/100txy" target="_blank"><img src="screenshoot/wxParse_logo.jpg"></a></p>
 <p align="center"><a href="https://github.com/leiphp/100txy" target="_blank"><img src="screenshoot/weappmsg_qr.jpg"></a></p>
