@@ -1,8 +1,5 @@
 # 100txy
 雷小天博客转微信小程序
-
-<p align="center"><a href="https://github.com/leiphp/100txy" target="_blank"><img src="screenshoot/wxParse_logo.jpg"></a></p>
-<p align="center"><a href="https://github.com/leiphp/100txy" target="_blank"><img src="screenshoot/weappmsg_qr.jpg"></a></p>
 <h1 align="center" style="margin-bottom: 20px;">wxParse-雷小天博客微信小程序</h1>
 <h2 align="center">支持Html及markdown转wxml可视化</h2>
 <p align="center"><code>版本号:1.0</code></p>
@@ -48,7 +45,7 @@
 * 2. 引入必要文件
 
 ```
-//在使用的View中引入WxParse模块
+//在使用的xx.js中引入WxParse模块
 var WxParse = require('../../wxParse/wxParse.js');
 ```
 
@@ -80,13 +77,6 @@ WxParse.wxParse('article', 'html', article, that, 5);
 <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
 ```
 
-## 高级用法
-
-* 配置小表情emojis
-
-
-
-
 ## 二次开发
 
 * 基础数据格式
@@ -101,7 +91,6 @@ parsedata:{
 
 ```
 
-* 参见wiki[wxParse二次开发文档](https://github.com/leiphp/wxParse/wiki/wxParse%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3)
 
 ## 相关文章
 
@@ -112,12 +101,12 @@ parsedata:{
 
 ## 捐献
 
-* 参见wiki[捐献作者](https://github.com/leiphp/wxParse/wiki/%E6%8D%90%E7%8C%AE%E4%BD%9C%E8%80%85)
+* 参见雷小天博客[捐献作者](http://www.100txy.com)
 
 ## 来源
-[微信小程序开发论坛](http://weappdev.com)
+[雷小天个人博客](http://100txy.com)
 垂直微信小程序开发交流社区
 
-可在网站扫描二维码进入我们的微信小程序群，也可以微信搜索"weappmsg"进入"小码消息"公众号
-![小码消息-weappmsg](screenshoot/weappmsg_qr.jpg)
+可在网站扫描二维码进入我们的微信公众号
+[雷小天博客](weixin.jpg)
 其他方式:合作qq：1124378213
