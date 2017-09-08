@@ -108,9 +108,9 @@ parsedata:{
 
 ## 相关文章
 
-* [wxDiscode－微信小程序特殊字符转义符转化工具类](http://weappdev.com/t/wxdiscode/203)
-* [微信小程序组件wxParse中的模版template使用 既然不能循环那就使用笨办法](http://weappdev.com/t/wxparse-template/192)
-* [微信小程序单图片的自适应计算](https://weappdev.com/t/topic/301)
+* [微信小程序如何加载数据库真实数据？](http://www.100txy.com/article/102.html)
+* [微信小程序将html转为wxml开发案例](http://www.100txy.com/article/101.html)
+* [微信小程序消息推送配置案例](http://www.100txy.com/article/90.html)
 
 
 ## 捐献
@@ -123,4 +123,4 @@ parsedata:{
 
 可在网站扫描二维码进入我们的微信小程序群，也可以微信搜索"weappmsg"进入"小码消息"公众号
 ![小码消息-weappmsg](screenshoot/weappmsg_qr.jpg)
-其他方式:合作qq群511389428
+其他方式:合作qq：1124378213
