@@ -77,20 +77,6 @@ WxParse.wxParse('article', 'html', article, that, 5);
 <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
 ```
 
-## 二次开发
-
-* 基础数据格式
-
-```
-parsedata:{
-    view:{},//样式存储
-    nodes:{},//展示需要的存储节点
-    images:[],//存放图片对象数组
-    imageUrls:[],//存放图片url数组
-}
-
-```
-
 
 ## 相关文章
 
