@@ -86,7 +86,7 @@ WxParse.wxParse('article', 'html', article, that, 5);
 
 ## 捐献
 
-* 参见雷小天博客[捐献作者](http://www.100txy.com)
+* 参见雷小天博客[小额捐献](https://www.100txy.com/Home/Index/alidonate.html)
 
 ## 来源
 [雷小天个人博客](http://100txy.com)
