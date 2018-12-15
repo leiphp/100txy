@@ -39,7 +39,7 @@ Page({
   getDetail(id) {
     var that = this
     wx.request({
-      url: 'https://www.100txy.com/weixin/getdowndetail?id='+id, //仅为示例，并非真实的接口地址
+      url: 'https://www.100txy.com/smallapp/getdowndetail?id='+id, //仅为示例，并非真实的接口地址
       data: {},
       header: {
         'content-type': 'application/json'
@@ -77,4 +77,5 @@ Page({
 
   onHide: function() {
   },
+  
 })

@@ -8,7 +8,6 @@
         <text class="title">{{Downdetail.title}}\n</text>      
         <text class="dianping">时间：{{Downdetail.addtime}} 作者：{{Downdetail.author}} 浏览：{{Downdetail.view_count}}\n</text>
       </view>
-      <view class="hr"></view>
       <view class="wxParse">
         <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
       </view>

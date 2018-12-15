@@ -1,0 +1,15 @@
+
+<view class="content">
+
+  <view class="page-body">
+    <block wx:for="{{picdata}}" >
+      <view class="page-section page-section-gap">
+        <view class="page-section-title">{{item.showname}}</view>
+        <view class="page-section-ctn">
+          <image class="image" src="https://www.100txy.com/{{item.thumbnailpath}}"/>
+        </view>
+      </view>
+    </block>
+  </view>
+
+</view>

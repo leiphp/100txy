@@ -7,13 +7,19 @@ page{
   height: 100%;
 }
 .wxParse{
-  margin: 3rpx;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:10px;
+  padding-bottom:10px;
 }
 .sucai{
   font-family: "微软雅黑";
 }
 .su_title{
   text-align:center;
+  padding-top:15px;
+  border-bottom:1px dashed gray;
+  padding-bottom:10px;
 }
 .title{
   font-size: 28rpx;

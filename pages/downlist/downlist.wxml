@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<view class="newsInfo">
+  <!-- <block wx:for="{{newsList}}">
+    <view class="newsList">
+      <view class="pic">
+        <image style="width:110px;height:80px;" src="{{item.imgUrl}}"></image>
+      </view>
+      <view class="news_title">
+        <text class="title_subject">{{item.title_1}}\n</text>
+        <text class="title">{{item.title_2}}</text><text class="dianping">{{item.count}}评</text>
+      </view>
+      </view>
+    <view class="hr"></view>
+   </block>  -->
+
+   <block wx:for="{{Industry}}" >
+    <view class="newsList" wx:for-index="idx"  bindtap="showDetail" id="{{item.id}}">
+      <view class="pic">
+        <image style="width:110px;height:80px;" src="https://www.100txy.com/{{item.path}}"></image>
+      </view>
+      <view class="news_title">
+        <text class="title_subject">{{item.title}}\n</text>
+        <text class="title">{{item.description}}</text><text class="dianping">浏览 {{item.view}}  下载 {{item.down}}</text>
+      </view>
+      </view>
+    <view class="hr"></view>
+   </block>
+</view>
+
+
+
+   
+ 
