@@ -1,49 +1,48 @@
 {
-  "pages":[
-    
-    "pages/news/news",
+  "pages": [
     "pages/index/index",
+    "pages/downlist/downlist",
     "pages/member/member",
     "pages/feedback/feedback",
     "pages/entry/entry",
     "pages/article/article",
-    "pages/logs/logs"
-    
+    "pages/logs/logs",
+    "pages/picture/picture"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#13c5f8",
-    "navigationBarTitleText": "雷小天博客-ThinkPHP框架开发的个人原创博客网站",
-    "navigationBarTextStyle":"#fff"
+    "navigationBarTitleText": "雷小天博客",
+    "navigationBarTextStyle": "#fff"
   },
-"tabBar": {
-  "color": "#fff",
-  "backgroundColor": "#13c5f8",
-  "list": [
-    {
-      "pagePath": "pages/news/news",
-      "iconPath": "images/footer-icon-01.png",
-      "selectedIconPath": "images/footer-icon-01-active.png",
-      "text": "首页"
-    },
-    {
-      "pagePath": "pages/index/index",
-      "iconPath": "images/footer-icon-02.png",
-      "selectedIconPath": "images/footer-icon-02-active.png",
-      "text": "下载"
-    },
-    {
-      "pagePath": "pages/feedback/feedback",
-      "iconPath": "images/footer-icon-03.png",
-      "selectedIconPath": "images/footer-icon-03-active.png",
-      "text": "留言板"
-    },
-    {
-      "pagePath": "pages/member/member",
-      "iconPath": "images/footer-icon-04.png",
-      "selectedIconPath": "images/footer-icon-04-active.png",
-      "text": "个人中心"
-    }
-  ]
-}
+  "tabBar": {
+    "color": "#fff",
+    "backgroundColor": "#6ed0ec",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/footer-icon-01.png",
+        "selectedIconPath": "images/footer-icon-01-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/downlist/downlist",
+        "iconPath": "images/footer-icon-02.png",
+        "selectedIconPath": "images/footer-icon-02-active.png",
+        "text": "下载"
+      },
+      {
+        "pagePath": "pages/picture/picture",
+        "iconPath": "images/footer-icon-05.png",
+        "selectedIconPath": "images/footer-icon-05-active.png",
+        "text": "图片"
+      },
+      {
+        "pagePath": "pages/member/member",
+        "iconPath": "images/footer-icon-04.png",
+        "selectedIconPath": "images/footer-icon-04-active.png",
+        "text": "个人中心"
+      }
+    ]
+  }
 }
