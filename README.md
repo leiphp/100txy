@@ -92,7 +92,7 @@ WxParse.wxParse('article', 'html', article, that, 5);
 [雷小天个人博客](http://100txy.com)
 独立开发
 
-##公众号
+## 公众号
 *可在网站点击公众号扫描二维码进入我们的微信公众号
 [雷小天博客](weixin.jpg)
 *其他方式:合作qq：1124378213
