@@ -89,11 +89,9 @@ WxParse.wxParse('article', 'html', article, that, 5);
 * 点击捐赠[小额捐赠](https://www.100txy.com/Home/Index/alidonate.html)
 
 ## 来源
-[雷小天个人博客](http://100txy.com)
+[雷小天个人博客](http://100txy.com)  
 独立开发
 
-## 公众号
-
+## 公众号  
+扫码预览  
 ![公众号](weixin.jpg)
-
-
