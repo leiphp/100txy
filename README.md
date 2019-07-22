@@ -90,7 +90,7 @@ WxParse.wxParse('article', 'html', article, that, 5);
 
 ## 来源
 [雷小天个人博客](http://100txy.com)  
-独立开发
+个人开发
 
 ## 公众号  
 扫码预览  
