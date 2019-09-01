@@ -13,7 +13,7 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#13c5f8",
     "navigationBarTitleText": "雷小天博客",
-    "navigationBarTextStyle": "#fff"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#fff",
@@ -44,5 +44,6 @@
         "text": "个人中心"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
