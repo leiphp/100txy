@@ -2,6 +2,7 @@
   <!-- <view class="nav">
     <view hover="true" hover-class="hoverNav" hover-start-time="500" wx:for="{{newsTitles}}" class="nav_title">{{item}}</view>
   </view> -->
+  <!-- <van-button type="primary">按钮</van-button> -->
   <view class="banner">
     <swiper indicator-dots="true" autoplay="true" interval="5000" indicator-active-color="#2089dc" circular="true"        bindchange="EventHandle">
     <block wx:for="{{bannerUrls}}">

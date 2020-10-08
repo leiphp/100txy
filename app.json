@@ -7,17 +7,37 @@
     "pages/entry/entry",
     "pages/article/article",
     "pages/logs/logs",
-    "pages/picture/picture"
+    "pages/picture/picture",
+    "pages/ucenter/index/index",
+    "pages/ucenter/main/index",
+    "pages/ucenter/address/address",
+    "pages/ucenter/addressAdd/addressAdd",
+    "pages/ucenter/feedback/feedback",
+    "pages/ucenter/footprint/footprint",
+    "pages/ucenter/order/order",
+    "pages/ucenter/orderDetail/orderDetail",
+    "pages/ucenter/couponList/couponList",
+    "pages/ucenter/couponSelect/couponSelect",
+    "pages/ucenter/collect/collect",
+    "pages/ucenter/user/user",
+    "pages/auth/login/login",
+    "pages/auth/accountLogin/accountLogin",
+    "pages/auth/register/register",
+    "pages/auth/reset/reset"
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#13c5f8",
+    "navigationBarBackgroundColor": "#85c43f",
     "navigationBarTitleText": "雷小天博客",
-    "navigationBarTextStyle": "black"
+    "enablePullDownRefresh": true,
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "backgroundTextStyle": "dark"
   },
   "tabBar": {
-    "color": "#fff",
-    "backgroundColor": "#6ed0ec",
+    "backgroundColor": "#fafafa",
+    "borderStyle": "white",
+    "selectedColor": "#85c43f",
+    "color": "#666",
     "list": [
       {
         "pagePath": "pages/index/index",
@@ -38,7 +58,7 @@
         "text": "图片"
       },
       {
-        "pagePath": "pages/member/member",
+        "pagePath": "pages/ucenter/index/index",
         "iconPath": "images/footer-icon-04.png",
         "selectedIconPath": "images/footer-icon-04-active.png",
         "text": "个人中心"

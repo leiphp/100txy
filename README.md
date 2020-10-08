@@ -76,6 +76,13 @@ WxParse.wxParse('article', 'html', article, that, 5);
 <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
 ```
 
+* 5. Vant Weapp引入  
+```
+// 安装步骤  
+1. npm i @vant/weapp -S --production  
+2. 打开微信开发者工具，点击 工具 -> 构建 npm，并勾选 使用 npm 模块 选项，构建完成后，即可引入组件
+```
+
 
 ## 相关文章
 
